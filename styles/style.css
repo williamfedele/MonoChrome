@@ -1,0 +1,35 @@
+:root {
+	/* https://rosepinetheme.com/palette */
+	--base: #232136;
+	--surface: #2a273f;
+	--rose: #ebbcba;	
+	--iris:#c4a7e7;
+}
+
+html {
+	display: flex;
+	min-height: 100vh;
+}
+
+body {	
+	margin: auto;
+	background: linear-gradient(0deg, var(--base) 50%, var(--surface) 50%);	
+}
+
+.container {
+	font-family: 'Space Mono', monospace;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+#greeting {
+	font-size: 5vw;
+	color: var(--iris);
+	padding-bottom: 20px;
+}
+
+#date {
+	font-size: 5vw;
+	color: var(--rose);
+	padding-top: 20px;
+}
